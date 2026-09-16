@@ -13,7 +13,7 @@ class CounterPage extends StatefulWidget {
 class _CounterPageState extends State<CounterPage> {
   int _count = 0;
   final TextEditingController _countTarget =
-      TextEditingController(); // intualizing text editing controller
+      TextEditingController(); // intializing text editing controller
 
   void increaseCount() {
     setState(() {
